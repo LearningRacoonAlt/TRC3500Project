@@ -144,9 +144,9 @@ int main(void)
 //	  	    volume = -0.0193*sum + 73.19;
 	  	  	volume = -0.00000000479562*sum*sum*sum + 0.0000375119*sum*sum -0.103293*sum + 112.21162;
 //	  	  	volume = 0.00000668744*sum*sum - 0.046432*sum + 83.0274;
-	  	  	if (volume>20){
-	  	  		volume = volume*1.15;
-	  	  	}
+	  	  	// if (volume>20){
+	  	  	// 	volume = volume*1.15;
+	  	  	// }
 	  	  	sprintf(msg, "Mean Volume = %4.2fml, %4.2f\r\n", volume, sum);
 
 	  	    HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY); // Send message over UART
