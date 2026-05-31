@@ -29,7 +29,7 @@ THERMISTOR_EXHALE_PEAK_THRESHOLD = 0.10
 
 # Expected timing window for an exhalation to occur immediately after an inhalation
 MIN_EXHALE_LAG_S = 0.25
-MAX_EXHALE_LAG_S = 2.0
+MAX_EXHALE_LAG_S = 6.0
 
 # ===================================
 
